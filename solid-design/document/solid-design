@@ -1,0 +1,21 @@
+SOLID Design principles: Solid design principles are the set of principles that are used to make the software design more understandable, flexible and maintainable.
+
+| Principle | Description |
+|-----------|-------------|
+
+
+
+| S | Single Responsibility Principle: A class should have only one reason to change. |
+for example, if a class is responsible for both saving and printing the data, then if there is a change in the printing logic, then the class should not be affected.
+
+| O | Open/Closed Principle: A class should be open for extension but closed for modification. |
+for example, if we have a class that is responsible for saving the data, then if we want to add a new feature to the class, then we should not modify the existing class, instead, we should extend the class and add the new feature.
+
+| L | Liskov Substitution Principle: Objects of a superclass should be replaceable with objects of its subclasses without affecting the functionality of the program. |
+for example, if we have a class that is responsible for saving the data, then if we want to replace the class with its subclass, then the subclass should be able to replace the superclass without affecting the functionality of the program.
+
+| I | Interface Segregation Principle: A client should not be forced to implement an interface that it does not use. |
+for example, if we have an interface that has multiple methods, then if a client wants to use only one method of the interface, then the client should not be forced to implement all the methods of the interface.
+
+| D | Dependency Inversion Principle: High-level modules should not depend on low-level modules. Both should depend on abstractions. |
+for example, if we have a class that is responsible for saving the data, then if we want to change the class that is responsible for saving the data, then we should not modify the existing class, instead, we should create an interface and make the class depend on the interface.
